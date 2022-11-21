@@ -39,9 +39,9 @@ public class WebDriverUtility {
 		a.dragAndDrop(source, target).perform();
 	}
 	
-	public void dropdown(WebElement element, String text) {
+	public void dropdown(WebElement element, int index) {
 		Select s = new Select(element);
-		s.selectByVisibleText(text);
+		s.selectByIndex(index);
 	}
 	
 	public void switchToFrame() {
