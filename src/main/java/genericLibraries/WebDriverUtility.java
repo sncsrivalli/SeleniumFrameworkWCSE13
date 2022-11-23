@@ -15,13 +15,14 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class WebDriverUtility {
 	
 	WebDriver driver ;
-	public void OpenBrowserAndNavigateToApplication(String url, long time) {
+	public WebDriver OpenBrowserAndNavigateToApplication(String url, long time) {
 		
 		WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get(url);
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(time));
+		return driver;
 	}
 	
 	public void mouseHoverToElement(WebElement element) {
@@ -66,5 +67,9 @@ public class WebDriverUtility {
 		for(String windowID : windows) {
 			driver.switchTo().window(windowID);
 		}
+	}
+	
+	public void closeBrowser() {
+		driver.quit();
 	}
 }
