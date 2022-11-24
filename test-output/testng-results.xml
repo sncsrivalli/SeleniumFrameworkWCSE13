@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-24T20:56:08 IST" name="Default suite" finished-at="2022-11-24T20:56:36 IST" duration-ms="28448">
+    <groups>
+    </groups>
+    <test started-at="2022-11-24T20:56:08 IST" name="Default test" finished-at="2022-11-24T20:56:36 IST" duration-ms="28448">
+      <class name="testScripts.TestCase4">
+        <test-method is-config="true" signature="testSetUp()[pri:0, instance:testScripts.TestCase4@1e1a0406]" started-at="2022-11-24T20:56:08 IST" name="testSetUp" finished-at="2022-11-24T20:56:08 IST" duration-ms="33" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetUp -->
+        <test-method is-config="true" signature="classSetUp()[pri:0, instance:testScripts.TestCase4@1e1a0406]" started-at="2022-11-24T20:56:08 IST" name="classSetUp" finished-at="2022-11-24T20:56:09 IST" duration-ms="1473" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classSetUp -->
+        <test-method is-config="true" signature="methodSetUp()[pri:0, instance:testScripts.TestCase4@1e1a0406]" started-at="2022-11-24T20:56:09 IST" name="methodSetUp" finished-at="2022-11-24T20:56:21 IST" duration-ms="12295" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodSetUp -->
+        <test-method signature="fourthTest()[pri:0, instance:testScripts.TestCase4@1e1a0406]" started-at="2022-11-24T20:56:21 IST" name="fourthTest" finished-at="2022-11-24T20:56:31 IST" duration-ms="9942" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fourthTest -->
+        <test-method is-config="true" signature="methodTearDown()[pri:0, instance:testScripts.TestCase4@1e1a0406]" started-at="2022-11-24T20:56:31 IST" name="methodTearDown" finished-at="2022-11-24T20:56:36 IST" duration-ms="4538" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTearDown -->
+        <test-method is-config="true" signature="classTearDown()[pri:0, instance:testScripts.TestCase4@1e1a0406]" started-at="2022-11-24T20:56:36 IST" name="classTearDown" finished-at="2022-11-24T20:56:36 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classTearDown -->
+      </class> <!-- testScripts.TestCase4 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
