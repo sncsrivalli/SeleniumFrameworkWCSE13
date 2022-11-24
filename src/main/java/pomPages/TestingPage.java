@@ -11,11 +11,15 @@ public class TestingPage {
 	
 	//Declaration
 	
-	@FindBy(id = "munit testing ")
+	@FindBy(xpath = "//img[@id='munit testing ']")
 	private WebElement junitImage;
 	
 	@FindBy(id = "cartArea")
 	private WebElement myCartArea;
+	
+
+	@FindBy(xpath = "//ul[@class='list-socialicons']/li[2]")
+	private WebElement facebookIcon;
 	
 	//Initialization
 	
@@ -27,5 +31,13 @@ public class TestingPage {
 	
 	public void DragJunitToMyCart(WebDriverUtility webdriver) {
 		webdriver.dragAndDropElement(junitImage, myCartArea);
+	}
+	
+	public void clickFacebookIcon() {
+		facebookIcon.click();
+	}
+
+	public WebElement getFacebookIcon() {
+		return facebookIcon;
 	}
 }

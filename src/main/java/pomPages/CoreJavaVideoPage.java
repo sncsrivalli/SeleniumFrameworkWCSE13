@@ -12,10 +12,10 @@ public class CoreJavaVideoPage {
 	@FindBy(xpath = "//a[@class='close_cookies']")
 	private WebElement closeCookiesIcon;
 	
-	@FindBy(xpath = "//span[.='Play']")
+	@FindBy(xpath = "//button[.='Play']")
 	private WebElement playButton;
 	
-	@FindBy(xpath = "//span[.='Pause']")
+	@FindBy(xpath = "//button[.='Pause']")
 	private WebElement pauseButton;
 	
 	@FindBy(xpath = "//span[.='Add To Wishlist']")

@@ -23,8 +23,6 @@ public class SkillraryDemoAppPage {
 	@FindBy(xpath = "//a[.='Contact Us']")
 	private WebElement contactUsLink;
 	
-	@FindBy(xpath = "//ul[@class='list-socialicons']/li[2]")
-	private WebElement facebookIcon;
 	
 	//Initialization
 	
@@ -49,8 +47,10 @@ public class SkillraryDemoAppPage {
 	public void clickContactUs() {
 		contactUsLink.click();
 	}
-	
-	public void clickFacebookIcon() {
-		facebookIcon.click();
+
+	public WebElement getContactUsLink() {
+		return contactUsLink;
 	}
+	
+	
 }
