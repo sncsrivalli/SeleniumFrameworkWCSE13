@@ -3,10 +3,9 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="testScripts.TestCase4"/>
+      
       <class name="testScripts.TestCase1"/>
-      <class name="testScripts.TestCase2"/>
-      <class name="testScripts.TestCase3"/>
+      
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
